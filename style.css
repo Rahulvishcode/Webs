@@ -104,11 +104,12 @@ button, a{
 .common-section{
     padding:0 0 9rem 0;
 }
-/* .bg-theme{
+.bg-theme{
 
-    color: var( --bs-supporting-color);
+   color: #f011e5;
+   font-weight: bold;
     background-image: none!important;
-} */
+}
 
 .hero-video--section{
    
@@ -152,7 +153,7 @@ button, a{
     color: var( --bs-main-color);
 }
 .card-box:hover{
-    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    box-shadow: rgba(13, 13, 13, 0.2) 0 8px 24px;
 }
 
 
@@ -215,3 +216,102 @@ button, a{
         background-color: #29a9fd;
 
     }
+
+
+    /* expert panel styling */
+
+    .contact-section{
+      position: relative;
+    } 
+    .custom-shape-divider-top-1688760312 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1688760312 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-top-1688760312 .shape-fill {
+        fill: #FFFFFF;
+    }
+    .text-grey{
+       color: #010100;
+    }
+
+    .text-light-grey{
+       color: #1089ff;
+    }
+    .contact-section .common-title{
+        padding-top: 10rem;
+    }
+
+.contact-section .form-section{
+    width:50%;
+}
+
+
+/* footer section */
+.main-footer-section{
+  padding: 0 0 4rem 0;
+  color: #c6c6c6;}
+
+.contact-div{
+    background-color: #1c1c1c;
+}
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+
+
+
+@media screen and (max-width; 1200px){
+    .hero-video--section{
+        width:20rem;
+        border-radius:1rem;
+    }
+}
+@media screen and (max-width :998px){
+     .navbar-toggler{
+        border-color:  #121111;
+
+     }
+     
+.navbar-toggler-icon{
+    color:#0b0a0b ;
+}
+h1{
+    font-size: 2.4rem;
+}
+section .common-heading{
+    font-size :2rem;
+}
+section .para-width{
+    width: auto;
+}
+  .hero-section{
+     height: 100vh;
+  }
+  h2{
+    font-size :1.8rem;
+    line-height: 4rem ;
+  }
+  .more-info-section{
+    text-align: center;
+  }
+    .carousel .carousel-indicators{
+        bottom: -8%;
+    }
+}
