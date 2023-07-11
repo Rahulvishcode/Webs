@@ -277,7 +277,7 @@ button, a{
 
 
 
-@media screen and (max-width; 1200px){
+@media screen and (max-width: 1200px){
     .hero-video--section{
         width:20rem;
         border-radius:1rem;
